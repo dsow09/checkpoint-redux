@@ -13,5 +13,10 @@ export let tasks     = [
         id: Date.now()+3,
         description: "Tache 03",
         isDone: false
+    },
+    {
+        id: Date.now()+4,
+        description: "Tache 04",
+        isDone: false
     }
 ];
