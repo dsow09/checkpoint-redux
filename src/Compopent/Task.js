@@ -1,6 +1,7 @@
 import React, {useState} from "react";
 import { useDispatch } from "react-redux";
-import { deleteTask } from "../redux/action";
+import { deleteTask, editTask } from "../redux/action";
+
 const completed = <span className="text-success">Complete 👌</span>
 const incompleted = <span className="text-danger">Incomplete 👋</span>
 

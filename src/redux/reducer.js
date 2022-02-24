@@ -10,9 +10,10 @@ export let reducer = (state = tasks, action) => {
             return task;
 
         case EDIT_TASK:
-           // task = [...state];
+            task = [...state];
+            task = task.filter(task => task === action.payload);
+            return task;
             
-            return 
         case DELETE_TASK:
             task = [...state];
             task = task.filter(task => task.id !== action.payload);
